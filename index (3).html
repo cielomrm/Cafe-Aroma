@@ -1,0 +1,193 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aroma Cafe</title>
+    <style>
+        body {
+            font-family: "Times New Roman", sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F0ECE3;
+
+        }
+
+        header {
+            background-color: #A9907E;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #262A56;
+            padding: 10px;
+        }
+
+        nav a {
+            margin: 0 20px;
+            text-decoration: none;
+            color: #F0ECE3;
+        }
+
+        footer {
+            background-color: #262A56;
+            text-align: center;
+            padding: 10px;
+            color: #F0ECE3;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .menu-section {
+            text-align: center;
+            background-color: #A9907E;
+            padding: 20px;
+        }
+
+        .menu-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 10px 0;
+        }
+
+        .menu-item img {
+            max-width: 200px;
+            height: auto;
+
+
+        }
+        #logo {
+            text-align: center;
+                        background-color: #A9907E;
+
+        }
+        @keyframes pop-up {
+    0% {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+#logo img {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+    animation: pop-up 1s ease-in-out;
+}
+
+        #logo img {
+
+            display: block;
+            margin: 0 auto;
+            width: 300px; 
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+   <div id="logo">
+     
+        <img src="https://i.pinimg.com/564x/99/8e/ad/998ead9ae8e9dbf8ee85ef8fff0df3f8.jpg" width="200" height="120">
+    </div>
+    <header>
+      <p>Welcome to Aroma Cafe, where every cup is a journey of taste and every moment is a cozy delight. Step in, relax, and let the rich aroma of our coffees embrace you. We're thrilled to have you here!</p>
+    </header>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#menu">Menu</a>
+        <a href="#visit">Visit Us</a>
+    </nav>
+
+    <div class="container">
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Welcome to Aroma Cafe, where we're passionate about providing the finest coffee and a cozy atmosphere. Our cafe is the perfect place to unwind, meet with friends, or find your new favorite coffee blend. We source our beans from the best coffee-growing regions to ensure every cup is a delightful experience.</p>
+        </section>
+
+        <section id="menu">
+            <h2>Menu</h2>
+            <p>Explore our delicious menu of coffee, tea, and snacks. From rich espresso to creamy lattes, we have something for every coffee lover. Pair your beverage with a delectable pastry or a savory sandwich. View our full menu to discover your next treat.</p>
+        </section>
+
+        <section id="coffee" class="menu-section">
+            <h2>Coffee</h2>
+            <ul>
+                <li class="menu-item">
+                    <img src="https://i.pinimg.com/564x/2a/0b/9b/2a0b9bea7d2e0718498998df8e17a797.jpg" alt="Americano" width="300" height="200">
+                    <h3>Americano</h3>
+                </li>
+                <li class="menu-item">
+                    <img src="https://i.pinimg.com/564x/8a/1a/70/8a1a70b3f8a8f431301b5cd6839f582d.jpg" alt="Cappuccino" width="180" height="200">
+                    <h3>Cappuccino</h3>
+                </li>
+                <li class="menu-item">
+                    <img src="https://i.pinimg.com/564x/45/38/10/453810958154922d419b4afb3ffda0c5.jpg" alt="Latte" width="180" height="200">
+                    <h3>Latte</h3>
+                </li>
+                <li class="menu-item">
+                    <img src="https://i.pinimg.com/564x/59/a2/1d/59a21df5c9560b445f76299fa878d7b2.jpg" alt="Macchiato" width="180" height="200">
+                    <h3>Macchiato</h3>
+                </li>
+                <li class="menu-item">
+                    <img src="https://i.pinimg.com/564x/42/0a/85/420a85d4fbb5f492afa9fdc14bd1d105.jpg" alt="Mocha" width="180" height="200">
+                    <h3>Mocha</h3>
+                </li>
+                <li class="menu-item">
+                    <img src="https://i.pinimg.com/564x/1f/85/72/1f85723779ea27e2e2ef06340fa52cca.jpg" alt="White Mocha" width="180" height="200">
+                    <h3>White Mocha</h3>
+                </li>
+            </ul>
+        </section>
+
+        <section id="pastries" class="menu-section">
+            <h2>Pastries</h2>
+            <ul>
+                <li class="menu-item">
+                    <img src="https://i.pinimg.com/564x/80/35/60/803560020f0f772bb12862e1eb2f50c0.jpg" alt="Blueberry Cheesecake" width="180" height="200">
+                    <h3>Blueberry Cheesecake</h3>
+                </li>
+                <li class="menu-item">
+                    <img src="https://i.pinimg.com/564x/c9/5f/68/c95f68316cbc2da2d8f818735000a7b3.jpg" alt="Brownie" width="180" height="200">
+                    <h3>Brownie</h3>
+                </li>
+                <li class="menu-item">
+                    <img src="https://i.pinimg.com/564x/36/af/7a/36af7acaa06bccce80b8452cb3c68af1.jpg" alt="Muffin" width="180" height="200">
+                    <h3>Muffin</h3>
+                </li>
+                <li class="menu-item">
+                    <img src="https://i.pinimg.com/564x/8a/13/42/8a1342e8edbb21e36e79c2bf7953d7aa.jpg" alt="Donut" width="180" height="200">
+                    <h3>Donut</h3>
+                </li>
+                <li class="menu-item">
+                    <img src="https://i.pinimg.com/564x/62/93/ef/6293ef012865e2b9aba5332df7421110.jpg" alt="Cookie" width="180" height="200">
+                    <h3>Cookie</h3>
+                </li>
+                <li class="menu-item">
+                    <img src="https://i.pinimg.com/564x/c4/98/37/c498371ab19f68348aca18f0f1d7e77f.jpg" alt="Croissant" width="180" height="200">
+                    <h3>Croissant</h3>
+                </li>
+            </ul>
+        </section>
+
+        <section id="visit">
+            <h2>Visit Us</h2>
+            <p>We are located at 123 Coffee Avenue, Brew City. Join us for your daily caffeine fix, a business meeting, or a cozy afternoon with a book. Our cafe is open from 7 AM to 7 PM, Monday to Saturday, and 8 AM to 5 PM on Sundays. Contact us at (123) 456-7890 for inquiries.</p>
+        </section>
+        <footer>
+            &copy; 2023 My Coffee Shop
+        </footer>
+    </div>
+</body>
+</html>
